@@ -1,0 +1,40 @@
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+#cover {
+    background-image: url(img/fondoprincipal.jpg);
+    background-size: cover;
+    height: 490px;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;    
+}
+
+#cover-texto {
+    width: 100%;
+}
+
+#acerca-de {
+    background-image: url(img/ninafondo.jpg);
+    background-size: 100% auto;
+    padding: 23px;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.card {
+    border: none !important;    
+}
+
+.texto-acerca-de {
+    background-color: rgba(12, 12, 12, .8);
+    padding: 34px;
+    color: white;
+    border-radius: 12px;
+}
